@@ -1,0 +1,16 @@
+{
+  "name": "pharmalife",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-10-01",
+  "assets": { "directory": "./public", "binding": "ASSETS" },
+  "routes": [
+    { "pattern": "pinnaclepowersystems.cc", "custom_domain": true }
+  ],
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "pharmalife-db",
+      "database_id": "79f7abb8-43f7-4bb4-9682-1a693058618d"
+    }
+  ]
+}
